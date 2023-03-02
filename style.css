@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(162,191,145);
+    color:black;
+}
+h1 {
+    text-align:center;
+}
+p {
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
