@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(162, 191, 145);
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: san;
+  color: black;
+
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.mainfrog {
+  position: absolute;
+  top: 200px;
+  left: 6in;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.mainfrog:hover {
+  transform: scaleX(-1);
+}
+
+
+
+
+
+
