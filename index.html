@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Froggy Dreams</title>
-    </head>
-    <body>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/top-nav.css">
+    <script src="./js/index.js"></script>
+    <title>Froggy Dreams</title>
+</head>
+
+<body>
+    <div>
+        <ul class="topnav">
+            <li class="menu-text"><a href="index.html">Home</a></li>
+            <li class="menu-text"><a href="about.html">About</a></li>
+            <li class="menu-text"><a href="contact.html">Contact</a></li>
+            <li class="menu-text"><a href="characters.html">Characters</a></li>
+            <li><button class="ribbit-button" onclick="audio.play();">🐸</button></li>
+            <script type="text/javascript">
+                const audio = new Audio();
+                audio.src = "./audio/ribbit.mp3";
+            </script>
+        </ul>
+    </div>
+    <div>
         <h1>Froggy Dreams</h1>
-        <p>Froggy Dreams is your new favorite frog dating game, and it is on it's way soon! Send any questions or suggestions to business@froggydreams.com</p>
-        <img src="placeholderfrog.png" alt="wackyfrog">
-    </body>
+
+    </div>
+
+    <img class="mainfrog" src="./images/placeholderfrog.png" alt="wackyfrog">
+
+
+
+
+</body>
+
 </html>
