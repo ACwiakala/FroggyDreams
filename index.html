@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggy Dreams Website</title>
+    <link rel="stylesheet" href="./Data/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+</head>
+
+<body>
+    <div class="wrap-body">
+
+        <header>
+            <div class="zerogrid">
+                <div class="wrap-header">
+                    <div class="logo t-center">
+                        <a href="#"><img src="./img/log.1.webp"></a>
+                    </div>
+                    <ul class="shell">
+                        <li class="button">
+                            <a href="./index1.html"><span>Home</span></a>
+
+                        </li>
+                        <li class="button">
+                            <a href="./characters.html"><span>Characters</span></a>
+                        </li>
+                        <li class="portrait">
+                            <ul class="information">
+                                <li>Froggy Dreams</li>
+                            </ul>
+                        </li>
+                        <li class="button">
+                            <a href="./story.html"> <span>Story</span></a>
+                        </li>
+                        <li class="button">
+                            <a href="./contact.html"><span>Contact</span></a>
+                        </li>
+                    </ul>
+                    <div class="atupian"><img src="./img/beijing3.jpg"></div>
+                </div>
+            </div>
+    </div>
+
+    </header>
+    <div class="body1">
+        <div class="box1"><img src="./img/tupian1.jpg">smile<br /> </div>
+        <div class="box2"><img src="./img/tupian2.jpg">laugh<br /></div>
+        <div class="box3"><img src="./img/tupian3.jpg">shy<br /></div>
+    </div>
+    <div class="wenzi1">
+        <div class="box4">Three frogs
+        </div>
+        <div class="box5">frog frog frog
+           </div>
+    </div>
+    <div class="touming">
+        <div class="touming1">みやる</div>
+    </div>
+    <div class="apartments">
+        <div class="biaoti">にゃんこい</div>
+        <section>
+            <video id="slider" src="./img/one.mp4" autoplay muted loop>
+            </video>
+            <ul class="navigation">
+                <li onclick="videoUrl('./img/one.mp4')"><img src="./img/one.jpg"></li>
+                <li onclick="videoUrl('./img/two.mp4')"><img src="./img/two.jpg"></li>
+                <li onclick="videoUrl('./img/three.mp4')"><img src="./img/three.jpg"></li>
+                <li onclick="videoUrl('./img/four.mp4')"><img src="./img/four.jpg"></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function videoUrl(hmmmmmm) {
+                document.getElementById("slider").src = hmmmmmm;
+            }
+        </script>
+    </div>
+    </div>
+    <div class="wbb" style="text-align: center; font-size: 18px; padding-top: 25px;">Product by: Tiankun Xu, Alex Cwiakala<br/></p>
+    </div>
+</body>
+
+</html>
