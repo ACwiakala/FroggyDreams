@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    display: flex;
+    width: 1540px;
+    height: 70px;
+    top: 0px;
+    background-color: rgb(123, 161, 197);
+    overflow: hidden;
+    font-size: 20px;
+    color: rgb(234, 247, 255);
+    opacity: 0.8;
+    z-index: 1000;
+}
+
+nav:hover{
+    opacity: 0.95;
+}
+nav .navtitle{
+    padding-left: 120px;
+    width: 990px;
+}
+nav .navtitle strong{
+    font-size: 50px;
+    font-weight: bolder;
+}
+nav a{
+   z-index: 1;
+   height: inherit;
+   text-align:center;
+   line-height: 70px;
+   width: 120px;
+   font-weight: bolder;
+   color: rgb(84, 109, 158);
+   transition: 0.5s;
+}
+
+
+

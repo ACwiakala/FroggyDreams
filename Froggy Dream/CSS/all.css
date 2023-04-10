@@ -1,6 +1,96 @@
+.zerogrid{
+    width: 1400px;
+    height: 870px;
+    background-image: linear-gradient(#bfa,rgb(255, 190, 168));
+    position: relative;
+}
+.wrap-header{
+    width: 1200px;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 750px;
+    position: absolute;
+}
+.wrap-sc {
+    width: 1200px;
+    height: 200px;
+    background-color: #fff;
+    /* margin-top: 10px; */
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 40px;
+}
+.fb img{
+    margin-left: 1060px;
+}
+.tt img{
+    margin-left: 1105px;
+}
+.yt img{
+    margin-left: 1150px;
+}
+.shell {
+    display: flex;
+    justify-content: center;
+}
+.button, .portrait {
+    width: 170px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 25px;
+}
+.button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+}
+.portrait::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(30px, -30px);
+    background-image: url(../img/tupian2.jpg);
+    background-size: cover;
+    border: 10px solid #fff;
+}
+.wbb{
+    width: 1519.2px;
+    height: 100px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 25px;
+    padding-top: 40px;
+}
+footer{
+    margin-top: 0px;
+    width: 100%;
+    height: 170px;
+    float: left;
+    clear: both;
+    margin-bottom: 0px;
+    background-color: rgba(84, 132, 161, 0.8);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.foot p{
+    line-height: 15px;
+    color: rgb(28, 43, 43);
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
