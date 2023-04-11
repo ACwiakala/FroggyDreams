@@ -69,7 +69,7 @@ body{
     border: 10px solid #fff;
 }
 .wbb{
-    width: 1519.2px;
+    width: 1400px;
     height: auto;
     background-color: blanchedalmond;
     color: black;
@@ -78,14 +78,14 @@ body{
 }
 footer{
     margin-top: 1px;
-    width: 100%;
+    width: 1400px;
     height: auto;
-    float: left;
     clear: both;
     margin-bottom: 0px;
     background-color: rgba(84, 132, 161, 0.8);
     padding-top: 1%;
     padding-bottom: 1%;
+    
 }
 .foot p{
     line-height: 15px;

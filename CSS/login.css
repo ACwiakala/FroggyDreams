@@ -15,6 +15,7 @@ body{
     background-image: url("../img/cyber3.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    transform: scale(1);
 }
 .back::before{
     content: "";
@@ -96,8 +97,3 @@ body{
     color: rgb(64, 160, 216);
 }
 
-@keyframes gradient{
-    100%{
-        background-position: -800% 0%;
-    }
-}

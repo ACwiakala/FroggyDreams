@@ -64,10 +64,10 @@
     height: 520px;
 }
 .body1{
-    width: 1519.2px;
+    width: 1400px;
     padding: 40px;
-    height: 600px;
-    background-image: linear-gradient(rgb(31, 211, 238),rgb(74, 121, 174));
+    height: 550px;
+    background-image: linear-gradient(rgb(88, 226, 247),rgb(93, 127, 166));
     display: flex;flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -76,7 +76,7 @@
     transform: scale(1.2);
 }
 .touming{
-    width: 1519.2px;
+    width: 1400px;
     height: 450px;
     background-color: transparent;
     background-attachment: fixed;
@@ -109,9 +109,9 @@
      background-color: rgb(30,32,33);
  }
 .apartments{
-    width: 1519.2px;
+    width: 1400px;
     height: 400px;
-    background-image: linear-gradient(rgb(253, 242, 153),rgb(125, 205, 248));
+    background-image: linear-gradient(rgb(253, 242, 153),rgb(120, 175, 204));
 }
 .apartments img{
     height: 20%;
