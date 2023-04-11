@@ -32,7 +32,7 @@ body{
     font-weight: bolder;
     -webkit-background-clip: text;
     background-size: 800%;
-    color: cyan;
+    color: rgba(0, 255, 255, 0.666);
     line-height: 100px;
 }
 
