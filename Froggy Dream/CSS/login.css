@@ -15,7 +15,7 @@ body{
     background-image: url("../img/cyber3.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transform: scale(1.05);
+    transform: scale(1);
 }
 .back::before{
     content: "";
