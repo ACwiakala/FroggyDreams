@@ -12,12 +12,9 @@ nav{
     z-index: 1000;
 }
 
-nav:hover{
-    opacity: 0.95;
-}
 nav .navtitle{
+    width: 1060px;
     padding-left: 120px;
-    width: 990px;
 }
 nav .navtitle strong{
     font-size: 50px;
@@ -26,8 +23,9 @@ nav .navtitle strong{
 nav a{
    text-align:center;
    line-height: 70px;
-   width: 110px;
+   width: 120px;
    font-weight: bolder;
+   font-size: 23px;
    color: rgb(84, 109, 158);
 }
 
