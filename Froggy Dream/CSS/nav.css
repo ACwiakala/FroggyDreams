@@ -11,10 +11,15 @@ nav{
     opacity: 0.8;
     z-index: 1000;
 }
-
 nav .navtitle{
-    width: 1060px;
+    width: 860px;
     padding-left: 120px;
+}
+.redfrog img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 50px;
 }
 nav .navtitle strong{
     font-size: 50px;
